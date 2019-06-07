@@ -5,7 +5,7 @@ const taskRouter = require('./routers/task')
 const app = express() 
 
 
-// Test
+// Test code
 app.use((req, res, next) => {
     // console.log(req.method, req.path, req.connection.remoteAddress)
     /* if (req.method === 'GET') {
@@ -16,6 +16,7 @@ app.use((req, res, next) => {
     next()
 })
 
+// Test code
 /* app.use((req, res, next) => {
     res.status(503).send('Site is currently down. Check back soon')
 }) */
@@ -27,7 +28,7 @@ app.use(taskRouter)
 
  
 
-// Test
+// Test code
 /* const Task = require('./models/task')
 const User = require('./models/user')
 
