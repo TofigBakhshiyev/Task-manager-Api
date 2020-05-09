@@ -9,10 +9,10 @@ Run: `npm install` and `npm run dev`
 `npm test` 
 #### Requests
 - Create user: Post `https://task-manager-restfull-api.herokuapp.com/users`
-`
+```
 {
   "name": "example",
   "email": example@gmail.com"
   "password": "password"
 }
-`
+```
