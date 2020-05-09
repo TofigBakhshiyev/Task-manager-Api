@@ -22,11 +22,7 @@ Run: `npm install` and `npm run dev`
   "name": "example",
   "password": "password"
 }
-```
-<br/>
-- Logout: Post  `https://task-manager-restfull-api.herokuapp.com/users/logout`
-- Logoutall: Post `https://task-manager-restfull-api.herokuapp.com/users/logoutAll`
-<br/>
+``` 
 - Create task: Post `https://task-manager-restfull-api.herokuapp.com/tasks`
 ```
 {
@@ -34,4 +30,26 @@ Run: `npm install` and `npm run dev`
   "completed": false
 }
 ```
+- Update password or name: Patch `https://task-manager-restfull-api.herokuapp.com/users/me`
+```
+{
+  "password": "123456@"
+}
+```
+- Update task: Patch `https://task-manager-restfull-api.herokuapp.com/tasks/:id`
+```
+{
+  "completed": true
+}
+```
+- Delete user: Delete `https://task-manager-restfull-api.herokuapp.com/users/me`
+- Delete task: Delete `https://task-manager-restfull-api.herokuapp.com/tasks/:id`
+- Delete picture: Delete `https://task-manager-restfull-api.herokuapp.com/users/me/avatar`
+- Get profile: Get `https://task-manager-restfull-api.herokuapp.com/users/me`
+- Get user tasks: Get `https://task-manager-restfull-api.herokuapp.com/tasks?sortBy=createdAt:asc`
+- Get user's single task with id: `https://task-manager-restfull-api.herokuapp.com/tasks/:id`
+- Get user's picture: `https://task-manager-restfull-api.herokuapp.com/users/:id/avatar`
+- Upload profile picture: Post `https://task-manager-restfull-api.herokuapp.com/users/me/avatar`
+- Logout: Post `https://task-manager-restfull-api.herokuapp.com/users/logout`
+- Logoutall: Post `https://task-manager-restfull-api.herokuapp.com/users/logoutAll`
 
