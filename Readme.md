@@ -8,6 +8,7 @@ Run: `npm install` and `npm run dev`
 `npm test` 
 ### Requests 
 #### Install Postman for requests or you can use curl
+This app runs on Heroku but in your computer url will be http://localshot:3000/
 - Create user: Post `https://task-manager-restfull-api.herokuapp.com/users`
 ```
 {
