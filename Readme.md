@@ -16,3 +16,20 @@ Run: `npm install` and `npm run dev`
   "password": "password"
 }
 ```
+- Login: Post `https://task-manager-restfull-api.herokuapp.com/users/login`
+```
+{
+  "name": "example",
+  "password": "password"
+}
+```
+- Logout: Post  `https://task-manager-restfull-api.herokuapp.com/users/logout`
+- Logoutall: Post `https://task-manager-restfull-api.herokuapp.com/users/logoutAll`
+- Create task: Post `https://task-manager-restfull-api.herokuapp.com/tasks`
+```
+{
+  "description": "fourth",
+	"completed": false
+}
+```
+
