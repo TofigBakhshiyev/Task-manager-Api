@@ -6,6 +6,4 @@ I wrote this app in Node.js lesson
 #### Run the app
 Run: `npm install` and `npm run dev`
 #### Test
-`npm test`
-#### Example
-https://task-manager-restfull-api.herokuapp.com/
+`npm test` 
