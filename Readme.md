@@ -1,5 +1,6 @@
 ### Task App
-With this app users can manage their tasks
+With this app users can manage their tasks 
+<br/>
 <img src="./images/readme.png" width="500">
 #### Requirments
 Create dev.env and test.env file and add MongoDB url, sendgridemail ApiKEy, JWT secret word and PORT number
